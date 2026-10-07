@@ -2,8 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+.pacha{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(11, 112, 11);
+    color: white;
+    padding: 5px;
+}
 .tpt{
-    width: 120px;
+    width: 110px;
+    margin: 10px;
 }
 .nav,.nav_bar{
     display: flex;
@@ -30,14 +38,14 @@
 .nav{
     background-color: whitesmoke;
     color: black;
-    border-radius: 10px;
+   
 }
 .nav_bar a:hover{
      
     color: black;
      
     text-decoration: underline ; 
-    color: rgb(3, 70, 146);
+    color:  rgb(11, 112, 11);
      
     
 
@@ -67,12 +75,14 @@
     
 }
 .expoz:hover{
-    background-color: lightblue;
+     color: darkred;
+    text-decoration: underline;
     padding: 2x;
     border-radius: 5px;
 }
 .repoz:hover{
-    background-color: lightblue;
+    color: darkred;
+    text-decoration: underline;
     padding: 2x;
     border-radius: 5px;
 }
@@ -83,28 +93,29 @@
 }
  
 .welcome_tpt{
-    background-image: url(imges/16925.png);
+    background-image:url(imges/rrr.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px;
-    border-radius: 20px;
-    
-     
-    
+    padding: 100px;
+
 
 }
+ 
 .expo,.repo{
     display: inline-block;
     margin-left: 0px;
 }
 .expo{
     padding: 10px;
-    background-color:skyblue;
-    color: black;
+    background-color:rgb(11, 112, 11);
+    color: white;
     border-radius: 10px;
     margin-top: 10px;
    
+}
+.expo a{
+    color: white;
 }
 .repoz,.expoz{
     text-decoration: none;
@@ -113,92 +124,105 @@
 }
 .repo{
     padding: 10px;
-    background-color: skyblue; 
+    background-color: rgb(11, 112, 11);
     border-radius: 10px;
     margin-top: 7px;
 }
+.repo a{
+    color: white;
+}
 .qck{
     margin: 10px;
+    color:rgb(14, 72, 14);
 }
 .find{
     margin-top: 10px;
+     color:rgb(14, 72, 14);
 }
 /* dabbas */
+
 /* all dabba tecct hover */
+.dabba .new:hover{
+     color:rgb(18, 101, 18);
+}
+.box6 .servz:hover{
+     color:rgb(18, 101, 18);
+     text-decoration: underline;
+}
 .upd:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .local:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .buzi:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .jobz:hover{
-       color: darkblue;
+     color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .oppo:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .edu:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .vaaipu:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .hospital:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .emergency:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .tranz:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .serv:hover{
-       color: darkblue;
+       color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .eventz:hover{
-       color: darkblue;
+       color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .fest:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .plaz:hover{
-       color: darkblue;
+       color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .tour:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .proz:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .prozser:hover{
-       color: darkblue;
+        color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .impo:hover{
-       color: darkblue;
+       color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 .impoc:hover{
-       color: darkblue;
+       color:rgb(18, 101, 18);
        text-decoration: underline;
 }
 
@@ -211,6 +235,7 @@
     align-items: center;
     /* text-align: center; */
      justify-content: space-evenly;
+     
   
     
      
@@ -225,6 +250,7 @@
 
      
 }
+
 .find{
     margin-top: 10px;
     margin-left: 15px;
@@ -241,8 +267,8 @@
     width: 75px;
     margin-top: 14px;
     background-color: lightskyblue;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 50px;
 }
 
 .new{
@@ -260,8 +286,9 @@
 .img2{
      width: 75px;
     background-color: lightskyblue; 
-    padding: 10px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 50px;
+    
     margin-top: 10px;
 }
 
@@ -284,8 +311,8 @@
 .img3{
     width: 75px;
      background-color: lightskyblue; 
-    padding: 10px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 50px;
     margin-top: 10px;
 }
 .jobz,.oppo{
@@ -301,8 +328,8 @@
 .img4{
      width: 75px;
     background-color: lightskyblue;
-     padding: 10px;
-    border-radius: 10px;
+     padding: 30px;
+    border-radius: 50px;
     margin-top: 10px;
 }
 .edu,.vaaipu{
@@ -319,8 +346,8 @@
 .img5{
        width: 75px;
     background-color: lightskyblue ;
-     padding: 10px;
-    border-radius: 10px;
+     padding: 30px;
+    border-radius: 50px;
     margin-top: 10px;
 }
 .emergency,.hospital{
@@ -337,8 +364,8 @@
 .img6{
      width: 75px;
     background-color: lightskyblue;
-     padding: 10px;
-    border-radius: 10px;
+     padding: 30px;
+    border-radius: 50px;
     margin-top: 10px;
 }
 .tranz,.servz{
@@ -355,8 +382,8 @@
 .img7{
         width: 75px;
     background-color: lightskyblue ;
-     padding: 10px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 50px;
     margin-top: 10px;
 }
 .eventz,.fest{
@@ -373,8 +400,8 @@
 .img8{
          width: 75px;
     background-color: lightskyblue ;
-     padding: 10px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 50px;
     margin-top: 10px;
 }
 .tour,.plaz{
@@ -391,8 +418,8 @@
 .img9{
         width: 75px;
     background-color: lightskyblue;
-     padding: 10px;
-    border-radius: 10px;
+     padding: 30px;
+    border-radius: 50px;
     margin-top: 10px;
 }
 .proz,.prozser{
@@ -409,8 +436,8 @@
 .img10{
    width: 75px;
     background-color:lightskyblue ;
-     padding: 10px;
-    border-radius: 10px;
+      padding: 30px;
+    border-radius: 50px;
     margin-top: 10px;
 
 }
