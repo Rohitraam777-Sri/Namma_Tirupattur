@@ -1,0 +1,828 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+}
+body{
+    background-color: rgb(227, 240, 230);
+}
+.pacha{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(11, 112, 11);
+    color: white;
+    padding: 5px;
+}
+.tpt{
+    width: 110px;
+    margin: 10px;
+}
+.nav,.nav_bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.nav_bar{
+     margin-left: 20%;
+
+}
+.nav_bar a{
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+     
+}
+ 
+.tpt{
+    margin-left: 40px;
+    border-radius: 50px;
+    padding: 5px;
+}
+.nav{
+    background-color: whitesmoke;
+    color: black;
+   
+}
+.nav_bar a:hover{
+     
+    color: black;
+     
+    text-decoration: underline ; 
+    color:  rgb(11, 112, 11);
+     
+    
+
+}
+ .log a{
+    background-color: lightskyblue;
+    padding: 15px;
+    border-radius: 15px;
+ }
+/* nav finishe here */
+.digiwel{
+    color: rgb(79, 156, 245);
+    font-style: italic;
+}
+.welz{
+    color: rgb(79, 156, 245);
+    font-style: italic;
+}
+ 
+ 
+.weltho{
+    font-size: 24px;
+    color: darkred;
+    width: 500px;
+    
+}
+.expoz:hover{
+     color: darkred;
+    text-decoration: underline;
+    padding: 2x;
+    border-radius: 5px;
+}
+ 
+.expo{
+    text-decoration: none;
+    color: black;
+   
+}
+ 
+.welcome_tpt{
+    background-image:url(imges/bg\ tpt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:7%;
+
+
+}
+ 
+.expo{
+    display: inline-block;
+    margin-left: 0px;
+}
+.expo{
+    padding: 10px;
+    background-color:rgb(11, 112, 11);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+.expo a{
+    color: white;
+}
+.expoz{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+}
+ 
+ 
+.qck{
+    margin: 10px;
+    color:rgb(14, 72, 14);
+}
+.find{
+    margin-top: 10px;
+    margin-bottom: 20px;
+     color:rgb(14, 72, 14);
+}
+/* all the image showing div finushed here */
+.top-anno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+
+}
+.view-anno{
+    font-size: 20px;
+    margin-right: 1%;
+}
+/* important thakavalas starts here */
+.thakavalzz{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5%;
+}
+/* thakavalzzz */
+.thakaval1{
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.thakaval1-flex{
+    display: flex;
+    align-items: center;
+}
+.thakavalz1{
+    margin-left: 7%;
+}
+.thakaval1extra{
+    margin-top: 4%;
+}
+.thakaval1ex{
+    margin-top: 2%;
+}
+.thakaval1anger{
+    margin-top: 5%;
+}
+/* thakaval1 finished successfully */
+.thakaval2{
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.thakaval2-flex{
+    display: flex;
+    align-items: center;
+}
+.thakavalz2{
+    margin-left: 7%;
+}
+.thakaval2extra{
+    margin-top: 4%;
+}
+.thakaval2ex{
+    margin-top: 2%;
+}
+.thakaval2anger{
+    margin-top: 5%;
+}
+/* thakaval2 finished successfully */
+.thakaval3{
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.thakaval3-flex{
+    display: flex;
+    align-items: center;
+}
+.thakavalz3{
+    margin-left: 7%;
+}
+.thakaval3extra{
+    margin-top: 4%;
+}
+.thakaval3ex{
+    margin-top: 2%;
+}
+.thakaval3anger{
+    margin-top: 5%;
+}
+/* thakaval3 finished successfully */
+.thakaval4{
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.thakaval4-flex{
+    display: flex;
+    align-items: center;
+}
+.thakavalz4{
+    margin-left: 7%;
+}
+.thakaval4extra{
+    margin-top: 4%;
+}
+.thakaval4ex{
+    margin-top: 2%;
+}
+.thakaval4anger{
+    margin-top: 5%;
+}
+/* thakaval 4 finished */
+.thakaval5{
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.thakaval5-flex{
+    display: flex;
+    align-items: center;
+}
+.thakavalz5{
+    margin-left: 7%;
+}
+.thakaval5extra{
+    margin-top: 4%;
+}
+.thakaval5ex{
+    margin-top: 2%;
+}
+.thakaval5anger{
+    margin-top: 5%;
+}
+/* thakaval 5 finished */
+.thakaval6{
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.thakaval6-flex{
+    display: flex;
+    align-items: center;
+}
+.thakavalz6{
+    margin-left: 7%;
+}
+.thakaval6extra{
+    margin-top: 4%;
+}
+.thakaval6ex{
+    margin-top: 2%;
+}
+.thakaval6anger{
+    margin-top: 5%;
+}
+/* thakaval 6 finished */
+.thakaval7{
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.thakaval7-flex{
+    display: flex;
+    align-items: center;
+}
+.thakavalz7{
+    margin-left: 7%;
+}
+.thakaval7extra{
+    margin-top: 4%;
+}
+.thakaval7ex{
+    margin-top: 2%;
+}
+.thakaval7anger {
+    margin-top: 5%;
+}
+/* thakaval 7 finished */
+.thakaval8{
+   width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.thakaval8-flex{
+    display: flex;
+    align-items: center;
+}
+.thakavalz8{
+    margin-left: 7%;
+}
+.thakaval8extra{
+    margin-top: 4%;
+}
+.thakaval8ex{
+    margin-top: 2%;
+}
+.thakaval8anger{
+    margin-top: 5%;
+}
+/* thakaval 9 finished */
+.thakaval9{
+   width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.thakaval9-flex{
+    display: flex;
+    align-items: center;
+}
+.thakavalz9{
+    margin-left: 7%;
+}
+.thakaval9extra{
+    margin-top: 4%;
+}
+.thakaval9ex{
+    margin-top: 2%;
+}
+.thakaval9anger{
+    
+    margin-top: 5%;
+     
+}
+/* all thakaval portion is completed here */
+/* we are going to code the side div portion */
+.top-anno{
+    margin: 12px;
+    margin-left: 11%;
+    
+}
+.side-div-main{
+    height: 300px;
+    border-radius: 10px;
+   display: inline-block;
+  
+}
+.side-div-main{
+    width: 600px;
+    background-color: white;
+    margin: 20px;
+}
+ 
+ 
+.side-div-in1{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.count1{
+    background-color: palegreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* count 1 is finished */
+ .side-div-in2{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.count2{
+    background-color: palegreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* count 2 is finished */
+ .side-div-in3{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.count3{
+    background-color: palegreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+ /* count 3 is finished */
+  .side-div-in4{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.count4{
+    background-color: palegreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* count 4 is finished */
+ .side-div-in4{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.count4{
+    background-color: palegreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* count 4 is finished */
+ .side-div-in5{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.count5{
+    background-color: palegreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* count 5 is finished */
+ .side-div-in6{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.count6{
+    background-color: palegreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* side div 1 is finished  */
+/* side 2 div is going starts here */
+.side-div-part2{
+    background-color: white;
+    padding: 15px;
+    margin-top: 12%;
+    border-radius: 10px;
+}
+.side-div-part2-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+/* portion 1 is fnished */
+.side-div-part2-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+/* portion 2 is finished */
+.side-div-part2-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+ 
+/* portion 3 is finished */
+/* now abt page of bottom starts here  */
+ .abtsocial{
+    display: flex;
+    justify-content: space-around;
+    width:200px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+ 
+.abtblue1{
+    margin-left: 35px;
+     
+}
+.abtbluei{
+    width: 150px;
+    border-radius: 100px;
+    margin-top: 10px;
+     
+}
+.onep{
+    margin-top: 10px;
+}
+.onef{
+    margin-top: 10px;
+}
+/* social  media */
+.abtsocial{
+    display: flex;
+    align-items: center;
+}
+.facebook{
+    width: 60px;
+    border-radius: 110px;
+}
+/* facebook finished */
+/* instagaram starts */
+.insta{
+    width: 60px;
+    margin-left: 7px;
+    border-radius: 110px;
+}
+/* insta finished */
+/* wp starts */
+.wp{
+    width: 65px;
+    border-radius: 170px;
+     margin-left: 7px;
+}
+/* wp endes */
+/* youtube starts */
+.utube{
+    width: 65px;
+    border-radius: 180px;
+     margin-left: 7px;
+}
+ .abtblue1{
+    display: inline-block;
+
+ }
+/* images finished */
+
+/* quick links starts */
+.aboutzblue{
+    background-color:rgb(11, 112, 11);
+    color: white;
+}
+.quick{
+    display: inline-block;
+    margin-left: 70px
+    
+}
+  
+ .homz{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+     
+    font-size: 20px;
+ }
+ .homz:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtblu{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtblu:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtserv{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtserv:hover{
+     color:darkred;
+    text-decoration: underline;
+ }
+ .sptz{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .sptz:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtjobz{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block; 
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtjobz:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtbuzi{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+ .abtbuzi:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .qcklink{
+    margin-bottom: 30px;
+ }
+ .quick a{
+    color: white;
+ }
+ .implinks a{
+    color: white;
+ }
+/* important thakaval */
+
+ .implinks{
+    display: inline-block;
+    margin-left: 70px
+    
+}
+  
+ .anno{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+     
+    font-size: 20px;
+ }
+ .anno:hover{
+   color:darkred;
+    text-decoration: underline;
+ }
+ .abtrepo{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtrepo:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abttrack{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abttrack:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .map{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .map:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .urgent{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block; 
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .urgent:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .private{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+ .private:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .qcklink{
+    margin-bottom: 30px;
+ }
+ /* important thakaval finished */
+  /* address */
+  .qckzlink{
+    margin-bottom: 27px;
+ }
+  .implinks{
+    display: inline-block;
+    margin-left: 70px
+    
+}
+.address{
+    display: inline-block;
+    margin-left: 50px;
+}
+.puthagaram{
+    margin-bottom: 10px;
+}
+.natrampalli{
+    margin-bottom: 10px;
+}
+.tirupattur{
+    margin-bottom: 10px;
+}
+.tn{
+    margin-bottom: 10px;
+}
+.call{
+    margin-bottom: 10px;
+}
+.email{
+    margin-bottom: 10px;
+}
+/* address fiished */
+.newzabt{
+    display: inline-block;
+    margin-left: 70px;
+}
+.subzz{
+      margin-bottom: 20px;
+}
+.abtinput{
+     margin-bottom: 20px;
+     padding: 10px;
+     width: 200px;
+     border-radius: 10px;
+     border: none;
+}
+.btnt{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(227, 244, 254);
+    color: darkblue;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+    
+    
+    
+}
+.btnt:hover{
+    color: darkred;
+    text-decoration: underline;
+    cursor: pointer;
+ } 
+ /* namma tpt about is finished */
+ /* Love for tirupattur */
+.rightz{
+    margin-left: 30px;
+}
+.love{
+    display: inline-block;
+    margin-right: 30px;
+}
+ .lovzz{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+ }

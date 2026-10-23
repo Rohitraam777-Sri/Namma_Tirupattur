@@ -1,6 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+     
+}
+body{
+    background-color: rgb(227, 240, 230);
 }
 .pacha{
     display: flex;
@@ -93,11 +97,11 @@
 }
  
 .welcome_tpt{
-    background-image:url(imges/rrr.jpg);
+    background-image:url(imges/bg\ tpt.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
+    padding: 79px;
 
 
 }
@@ -137,6 +141,7 @@
 }
 .find{
     margin-top: 10px;
+    margin-bottom: 20px;
      color:rgb(14, 72, 14);
 }
 /* dabbas */
@@ -264,7 +269,7 @@
 
  
 .img1{
-    width: 75px;
+    width: 50px;
     margin-top: 14px;
     background-color: lightskyblue;
     padding: 30px;
@@ -284,7 +289,7 @@
  
 
 .img2{
-     width: 75px;
+     width: 50px;
     background-color: lightskyblue; 
     padding: 30px;
     border-radius: 50px;
@@ -309,7 +314,7 @@
 /* dabba 2 margaiyaa */
 
 .img3{
-    width: 75px;
+     width: 50px;
      background-color: lightskyblue; 
     padding: 30px;
     border-radius: 50px;
@@ -326,7 +331,7 @@
 /* dabba 3 margaiyaa */
 
 .img4{
-     width: 75px;
+      width: 50px;
     background-color: lightskyblue;
      padding: 30px;
     border-radius: 50px;
@@ -344,7 +349,7 @@
 /* dabba 4 margaiyaa */
 
 .img5{
-       width: 75px;
+     width: 50px;
     background-color: lightskyblue ;
      padding: 30px;
     border-radius: 50px;
@@ -362,7 +367,7 @@
 /* dabba5 margaiyaa */
 
 .img6{
-     width: 75px;
+     width: 50px;
     background-color: lightskyblue;
      padding: 30px;
     border-radius: 50px;
@@ -380,7 +385,7 @@
 /* dabba 6 margaiyaa */
 
 .img7{
-        width: 75px;
+      width: 50px;
     background-color: lightskyblue ;
     padding: 30px;
     border-radius: 50px;
@@ -398,9 +403,9 @@
 /* dabba 7 margaiyaa */
 
 .img8{
-         width: 75px;
+      width: 50px;
     background-color: lightskyblue ;
-    padding: 30px;
+     padding: 30px;
     border-radius: 50px;
     margin-top: 10px;
 }
@@ -416,8 +421,8 @@
 /* dabba 8 margaiyaa */
 
 .img9{
-        width: 75px;
-    background-color: lightskyblue;
+     width: 50px;
+    background-color: lightskyblue ;
      padding: 30px;
     border-radius: 50px;
     margin-top: 10px;
@@ -434,9 +439,9 @@
 /* dabba 9 margaiyaa */
 
 .img10{
-   width: 75px;
-    background-color:lightskyblue ;
-      padding: 30px;
+   width: 50px;
+    background-color: lightskyblue ;
+     padding: 30px;
     border-radius: 50px;
     margin-top: 10px;
 
@@ -488,10 +493,18 @@
 }
 .annouz1{
     width: 300px;
-    background-color: lightskyblue;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px black;
     margin-left: 20px;
     padding: 10px;
     border-radius: 10px;
+}
+.annouz1 input{
+     box-shadow: 2px 2px 2px black;
+     margin-bottom: 10px;
+}
+.annouz2 input,.annouz3 input,.annouz4 input{
+    margin-bottom: 10px;
 }
 .gram{
     width: 100px;
@@ -519,7 +532,8 @@
 }
 .annouz2{
     width: 300px;
-    background-color: lightskyblue;
+    background-color: whitesmoke;
+     box-shadow: 2px 2px 2px black;
     margin-left: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -547,7 +561,8 @@
 /* local jobs fimished */
 .annouz3{
     width: 300px;
-    background-color: lightskyblue;
+    background-color: whitesmoke;
+     box-shadow: 2px 2px 2px black;
     margin-left: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -567,7 +582,8 @@
 }
 .datez{
     padding: 10px;
-    background-color: rgb(240, 246, 250);
+    background-color: whitesmoke;
+     box-shadow: 2px 2px 2px black;
     color: darkred;
     border-radius: 10px;
     border: none;
@@ -575,10 +591,11 @@
 /* clean finished */
 .annouz4{
     width: 300px;
-    background-color: lightskyblue;
+    background-color:  whitesmoke;
     margin-left: 20px;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
 }
 .localevent{
     width: 100px;
@@ -623,7 +640,8 @@
     border: 2px solid black;
     margin: 20px;
     border-radius: 10px;
-    background-color: lightskyblue;
+    background-color: whitesmoke;
+   
 
 }
 .yelagiri{
@@ -659,7 +677,7 @@
     border: 2px solid black;
     margin: 20px;
     border-radius: 10px;
-    background-color: lightskyblue;
+     background-color: whitesmoke;
 
 }
 .sandalimg{
@@ -694,7 +712,7 @@
     border: 2px solid black;
     margin: 20px;
     border-radius: 10px;
-    background-color: lightskyblue;
+    background-color:  whitesmoke;
 
 }
 .localplace{
@@ -729,8 +747,12 @@
     border: 2px solid black;
     margin: 20px;
     border-radius: 10px;
-    background-color: lightskyblue;
+    background-color:  whitesmoke;
 
+}
+.paru4 a:hover{
+      color: blue;
+      text-decoration: underline;
 }
 .localjobzz{
     width: 320px;
@@ -815,12 +837,14 @@
 }
  .abtblue1{
     display: inline-block;
+
  }
 /* images finished */
 
 /* quick links starts */
 .aboutzblue{
-    background-color:lightskyblue;
+    background-color:rgb(11, 112, 11);
+    color: white;
 }
 .quick{
     display: inline-block;
@@ -910,6 +934,12 @@
  }
  .qcklink{
     margin-bottom: 30px;
+ }
+ .quick a{
+    color: white;
+ }
+ .implinks a{
+    color: white;
  }
 /* important thakaval */
 

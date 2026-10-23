@@ -1,0 +1,1007 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+}
+body{
+    background-color: rgb(227, 240, 230);
+}
+.pacha{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(11, 112, 11);
+    color: white;
+    padding: 5px;
+}
+.tpt{
+    width: 110px;
+    margin: 10px;
+}
+.nav,.nav_bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.nav_bar{
+     margin-left: 20%;
+
+}
+.nav_bar a{
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+     
+}
+ 
+.tpt{
+    margin-left: 40px;
+    border-radius: 50px;
+    padding: 5px;
+}
+.nav{
+    background-color: whitesmoke;
+    color: black;
+   
+}
+.nav_bar a:hover{
+     
+    color: black;
+     
+    text-decoration: underline ; 
+    color:  rgb(11, 112, 11);
+     
+    
+
+}
+ .log a{
+    background-color: lightskyblue;
+    padding: 15px;
+    border-radius: 15px;
+ }
+/* top nav is finished */
+.weltho{
+    font-size: 24px;
+    color: darkred;
+    width: 500px;
+    
+}
+.expoz:hover{
+     color: darkred;
+    text-decoration: underline;
+    padding: 2x;
+    border-radius: 5px;
+}
+.repoz:hover{
+    color: darkred;
+    text-decoration: underline;
+    padding: 2x;
+    border-radius: 5px;
+}
+.expo,.repo{
+    text-decoration: none;
+    color: black;
+   
+}
+ 
+.welcome_tpt{
+    background-image:url(imges/bg\ tpt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+
+
+}
+ 
+.expo,.repo{
+    display: inline-block;
+    margin-left: 0px;
+}
+.expo{
+    padding: 10px;
+    background-color:rgb(11, 112, 11);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+.expo a{
+    color: white;
+}
+.repoz,.expoz{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+}
+.repo{
+    padding: 10px;
+    background-color: rgb(11, 112, 11);
+    border-radius: 10px;
+    margin-top: 7px;
+}
+.repo a{
+    color: white;
+}
+.qck{
+    margin: 10px;
+    color:rgb(14, 72, 14);
+}
+.find{
+    margin-top: 10px;
+    margin-bottom: 20px;
+     color:rgb(14, 72, 14);
+}
+/* image welcome of tiruaytur */
+.serv-head{
+    margin: 2%;
+    font-style: inherit;
+    color: green;
+}
+.service-main-div{
+    width: 950px;
+    background-color: white;
+    border-radius: 10px;
+     margin-bottom: 3%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 1.5%;
+}
+.service-sub-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   padding: 3%;
+    
+     
+}
+.serv1{
+    width: 220px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+}
+.serv1 h2{
+    margin-top: 2%;
+}
+.serv1 h4{
+    margin-top: 2%;
+}
+.serv1a{
+    margin-top: 7%;
+}
+.serv1a a{
+    text-decoration: none;  
+    color: rgb(2, 89, 2);
+    font-size: 19px;
+}
+.serv1a a:hover{
+    text-decoration: underline;  
+    color:red;
+    font-size: 19px;
+}
+/* portion 1 is finished */
+.serv2{
+     width: 220px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+}
+.serv2 h2{
+    margin-top: 2%;
+}
+.serv2 h4{
+    margin-top: 2%;
+}
+.serv2a{
+    margin-top: 7%;    
+}
+.serv2a a{
+    text-decoration: none;  
+}
+.serv2a a{
+    text-decoration: none;  
+    color: rgb(2, 89, 2);
+    font-size: 19px;
+}
+.serv2a a:hover{
+    text-decoration: underline;  
+    color:red;
+    font-size: 19px;
+}
+/* portion 2 is finished */
+.serv3{
+    width: 220px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+     
+}
+.serv3 h2{
+    margin-top: 2%;
+}
+.serv3 h4{
+    margin-top: 2%;
+}
+.serv3a{
+    margin-top: 7%;    
+}
+.serv3a a{
+    text-decoration: none;  
+}
+.serv3a a{
+    text-decoration: none;  
+    color: rgb(2, 89, 2);
+    font-size: 19px;
+}
+.serv3a a:hover{
+    text-decoration: underline;  
+    color:red;
+    font-size: 19px;
+}
+/* portion 3 is finished */
+.serv4{
+    width: 220px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+     
+}
+.serv4 h2{
+    margin-top: 2%;
+}
+.serv4 h4{
+    margin-top: 2%;
+}
+.serv4a{
+    margin-top: 7%;    
+}
+.serv4a a{
+    text-decoration: none;  
+}
+.serv4a a{
+    text-decoration: none;  
+    color: rgb(2, 89, 2);
+    font-size: 19px;
+}
+.serv4a a:hover{
+    text-decoration: underline;  
+    color:red;
+    font-size: 19px;
+}
+/* portion 4 is finished */
+.serv5{
+    width: 220px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+     
+}
+.serv5 h2{
+    margin-top: 2%;
+}
+.serv5 h4{
+    margin-top: 2%;
+}
+.serv5a{
+    margin-top: 7%;    
+}
+.serv5a a{
+    text-decoration: none;  
+}
+.serv5a a{
+    text-decoration: none;  
+    color: rgb(2, 89, 2);
+    font-size: 19px;
+}
+.serv5a a:hover{
+    text-decoration: underline;  
+    color:red;
+    font-size: 19px;
+}
+/* portion 5 is finished */
+.serv6{
+    width: 220px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+     
+}
+.serv6 h2{
+    margin-top: 2%;
+}
+.serv6 h4{
+    margin-top: 2%;
+}
+.serv6a{
+    margin-top: 7%;    
+}
+.serv6a a{
+    text-decoration: none;  
+}
+.serv6a a{
+    text-decoration: none;  
+    color: rgb(2, 89, 2);
+    font-size: 19px;
+}
+.serv6a a:hover{
+    text-decoration: underline;  
+    color:red;
+    font-size: 19px;
+}
+/* portion 6 is finished */
+.serv7{
+    width: 220px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+     
+}
+.serv7 h2{
+    margin-top: 2%;
+}
+.serv7 h4{
+    margin-top: 2%;
+}
+.serv7a{
+    margin-top: 7%;    
+}
+.serv7a a{
+    text-decoration: none;  
+}
+.serv7a a{
+    text-decoration: none;  
+    color: rgb(2, 89, 2);
+    font-size: 19px;
+}
+.serv7a a:hover{
+    text-decoration: underline;  
+    color:red;
+    font-size: 19px;
+}
+/* portion 7 is finished */
+.serv8{
+    width: 220px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+     
+}
+.serv8 h2{
+    margin-top: 2%;
+}
+.serv8 h4{
+    margin-top: 2%;
+}
+.serv8a{
+    margin-top: 7%;    
+}
+.serv8a a{
+    text-decoration: none;  
+}
+.serv8a a{
+    text-decoration: none;  
+    color: rgb(2, 89, 2);
+    font-size: 19px;
+}
+.serv8a a:hover{
+    text-decoration: underline;  
+    color:red;
+    font-size: 19px;
+}
+/* portion 8 is finished */
+.serv9{
+    width: 220px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+     
+}
+.serv9 h2{
+    margin-top: 2%;
+}
+.serv9 h4{
+    margin-top: 2%;
+}
+.serv9a{
+    margin-top: 7%;    
+}
+.serv9a a{
+    text-decoration: none;  
+}
+.serv9a a{
+    text-decoration: none;  
+    color: rgb(2, 89, 2);
+    font-size: 19px;
+}
+.serv9a a:hover{
+    text-decoration: underline;  
+    color:red;
+    font-size: 19px;
+}
+/* nowside part of the div starts here */
+.zzz{
+    margin: 5%;
+    padding-top: 2%;
+
+}
+.side-main-part2{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 7%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+.side-div-part2-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.side-div-portion1 a{
+     text-decoration: none;
+}
+/* portion1 is completed */
+ 
+.side-div-part2-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.side-div-portion2 a{
+     text-decoration: none;
+}
+/* portion 2 is completed */
+.side-div-part2-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.side-div-portion3 a{
+     text-decoration: none;
+}
+/* portion 3 is completed */
+.side-div-part2-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.side-div-portion4 a{
+     text-decoration: none;
+}
+/* portion 3 is completed */
+.side-div-part2-5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.side-div-portion5 a{
+     text-decoration: none;
+}
+/* imp calls here */
+.imp-calls{
+    background-color: white;
+    padding: 15px;
+    margin-left: 7%;
+    margin-top: 10%;
+    border-radius: 10px;
+    width: 570px;
+    
+     
+}
+.imp-calls img,.calz{
+    display: inline-block;
+    margin-left: 3%;
+}
+.calz-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.calz-img1{
+    text-align: center;
+}
+.calz-img2{
+    text-align: center;
+}
+.calz-img3{
+    text-align: center;
+}
+.img1{
+    background-color: palevioletred;
+    width: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img2{
+    background-color: palevioletred;
+    width: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img3{
+    background-color: palevioletred;
+    width: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* all repos img contacts is finiseh ehere */
+/* how it works starts here */
+.works{
+    display: flex;
+   
+}
+.works-one{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 170px;
+}
+.work1{
+    width: 50px;
+    background-color: palegreen;
+    padding: 7px;
+    border-radius: 10px;
+}
+.work1-t{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+ /* work one is finished */
+ .works-two{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+.work2{
+    width: 50px;
+    background-color: palegreen;
+    padding: 7px;
+    border-radius: 10px;
+}
+.work2-t{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+/* work 2 is finished */
+ .works-three{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+.work3{
+    width: 50px;
+    background-color: palegreen;
+    padding: 7px;
+    border-radius: 10px;
+}
+.work3-t{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+/* work three is finished */
+ .works-four{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+.work4{
+    width: 50px;
+    background-color: palegreen;
+    padding: 7px;
+    border-radius: 10px;
+}
+.work4-t{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+/* work four is finished */
+ .works-five{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 450px;
+    
+}
+.work5{
+    width: 50px;
+    background-color: palegreen;
+    padding: 7px;
+    border-radius: 10px;
+}
+.work5-t{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+/* 5 is finished */
+/* contact support is here */
+ .support{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 19px;
+ }
+ .support:hover{
+   color: darkred;
+   text-decoration: none;
+   text-decoration: underline;
+ }
+ /* contact suppport is finished here */
+ /* bottom of the contact website here below */
+ .abtsocial{
+    display: flex;
+    justify-content: space-around;
+    width:200px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+ 
+.abtblue1{
+    margin-left: 35px;
+     
+}
+.abtbluei{
+    width: 150px;
+    border-radius: 100px;
+    margin-top: 10px;
+     
+}
+.onep{
+    margin-top: 10px;
+}
+.onef{
+    margin-top: 10px;
+}
+/* social  media */
+.abtsocial{
+    display: flex;
+    align-items: center;
+}
+.facebook{
+    width: 60px;
+    border-radius: 110px;
+}
+/* facebook finished */
+/* instagaram starts */
+.insta{
+    width: 60px;
+    margin-left: 7px;
+    border-radius: 110px;
+}
+/* insta finished */
+/* wp starts */
+.wp{
+    width: 65px;
+    border-radius: 170px;
+     margin-left: 7px;
+}
+/* wp endes */
+/* youtube starts */
+.utube{
+    width: 65px;
+    border-radius: 180px;
+     margin-left: 7px;
+}
+ .abtblue1{
+    display: inline-block;
+
+ }
+/* images finished */
+
+/* quick links starts */
+.aboutzblue{
+    background-color:rgb(11, 112, 11);
+    color: white;
+}
+.quick{
+    display: inline-block;
+    margin-left: 70px
+    
+}
+  
+ .homz{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+     
+    font-size: 20px;
+ }
+ .homz:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtblu{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtblu:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtserv{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtserv:hover{
+     color:darkred;
+    text-decoration: underline;
+ }
+ .sptz{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .sptz:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtjobz{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block; 
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtjobz:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtbuzi{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+ .abtbuzi:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .qcklink{
+    margin-bottom: 30px;
+ }
+ .quick a{
+    color: white;
+ }
+ .implinks a{
+    color: white;
+ }
+/* important thakaval */
+
+ .implinks{
+    display: inline-block;
+    margin-left: 70px
+    
+}
+  
+ .anno{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+     
+    font-size: 20px;
+ }
+ .anno:hover{
+   color:darkred;
+    text-decoration: underline;
+ }
+ .abtrepo{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtrepo:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abttrack{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abttrack:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .map{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .map:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .urgent{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block; 
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .urgent:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .private{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+ .private:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .qcklink{
+    margin-bottom: 30px;
+ }
+ /* important thakaval finished */
+  /* address */
+  .qckzlink{
+    margin-bottom: 27px;
+ }
+  .implinks{
+    display: inline-block;
+    margin-left: 70px
+    
+}
+.address{
+    display: inline-block;
+    margin-left: 50px;
+}
+.puthagaram{
+    margin-bottom: 10px;
+}
+.natrampalli{
+    margin-bottom: 10px;
+}
+.tirupattur{
+    margin-bottom: 10px;
+}
+.tn{
+    margin-bottom: 10px;
+}
+.call{
+    margin-bottom: 10px;
+}
+.email{
+    margin-bottom: 10px;
+}
+/* address fiished */
+.newzabt{
+    display: inline-block;
+    margin-left: 70px;
+}
+.subzz{
+      margin-bottom: 20px;
+}
+.abtinput{
+     margin-bottom: 20px;
+     padding: 10px;
+     width: 200px;
+     border-radius: 10px;
+     border: none;
+}
+.btnt{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(227, 244, 254);
+    color: darkblue;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+    
+    
+    
+}
+.btnt:hover{
+    color: darkred;
+    text-decoration: underline;
+    cursor: pointer;
+ } 
+ /* namma tpt about is finished */
+ /* Love for tirupattur */
+.rightz{
+    margin-left: 30px;
+}
+.love{
+    display: inline-block;
+    margin-right: 30px;
+}
+ .lovzz{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+ }
+
+
+ 

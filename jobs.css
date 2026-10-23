@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+}
+body{
+    background-color: rgb(227, 240, 230);
+    font-family: sans-serif;
+}
+.pacha{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(11, 112, 11);
+    color: white;
+    padding: 5px;
+}
+.tpt{
+    width: 110px;
+    margin: 10px;
+}
+.nav,.nav_bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.nav_bar{
+     margin-left: 20%;
+
+}
+.nav_bar a{
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+     
+}
+ 
+.tpt{
+    margin-left: 40px;
+    border-radius: 50px;
+    padding: 5px;
+}
+.nav{
+    background-color: whitesmoke;
+    color: black;
+   
+}
+.nav_bar a:hover{
+     
+    color: black;
+     
+    text-decoration: underline ; 
+    color:  rgb(11, 112, 11);
+     
+    
+
+}
+ .log a{
+    background-color: lightskyblue;
+    padding: 15px;
+    border-radius: 15px;
+ }
+/* nav finishe here */
+.digiwel{
+    color: rgb(79, 156, 245);
+    font-style: italic;
+}
+.welz{
+    color: rgb(79, 156, 245);
+    font-style: italic;
+}
+ 
+ 
+.weltho{
+    font-size: 24px;
+    color: darkred;
+    width: 500px;
+    
+}
+.expoz:hover{
+     color: darkred;
+    text-decoration: underline;
+    padding: 2x;
+    border-radius: 5px;
+}
+ 
+.expo{
+    text-decoration: none;
+    color: black;
+   
+}
+ 
+.welcome_tpt{
+    background-image:url(imges/bg\ tpt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:7%;
+
+
+}
+ 
+.expo{
+    display: inline-block;
+    margin-left: 0px;
+}
+.expo{
+    padding: 10px;
+    background-color:rgb(11, 112, 11);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+.expo a{
+    color: white;
+}
+.expoz{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+}
+ 
+ 
+.qck{
+    margin: 10px;
+    color:rgb(14, 72, 14);
+}
+.find{
+    margin-top: 10px;
+    margin-bottom: 20px;
+     color:rgb(14, 72, 14);
+}
+/* all the image showing div finushed here */
+/* welcome namma tpt back img finished here */
+.main-buzi{
+   background-color: white;
+ padding: 10px;
+   border-radius: 10px;
+}
+.searching{
+    display: flex;
+    justify-content: space-around;
+}
+.search{
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    border: none;
+    border: 1.5px solid black;
+}
+.category{
+    padding: 10px;
+      width: 250px;
+    border: none;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+.location{
+ padding: 10px;
+   width: 250px;
+    border: none;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+.butz{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+}
+.butz:hover{
+    color: darkred;
+    text-decoration: underline;cursor: pointer;
+}
+/* dobe */
+.sss{
+    margin: 1.5%;
+}
+.job-main{
+    margin-top: 2%;
+    width: 900px;
+    background-color: white;
+    height: 500px;
+    margin: 1%;
+    margin-left: 2%;
+    border-radius: 10px;
+  
+}
+.job-main1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     padding: 15px;
+   
+}
+.img1{
+    margin-right: 10%;
+    width: 50px;
+}
+.x1{
+    margin-top: 1%;
+}
+.x2{
+    margin-top: 1%;
+}
+.x3{
+    margin-top: 1%;
+}
+.y1{
+    margin-top: 1%;
+    background-color: rgb(194, 254, 76);
+    padding: 7px;
+    border-radius: 7px;
+    width: fit-content;
+    margin-bottom: 7%;
+}
+.y2{
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.y3{
+    margin-top: 1%;
+     
+}
+.a1{
+    font-size: 18px;
+}
+/* portion 1 is finished */
+.job-main2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     padding: 15px;
+   
+}
+.img2{
+    margin-right: 10%;
+    width: 50px;
+}
+.x11{
+    margin-top: 1%;
+}
+.x22{
+    margin-top: 1%;
+}
+.x33{
+    margin-top: 1%;
+}
+.y11{
+    margin-top: 1%;
+    background-color: rgb(194, 254, 76);
+    padding: 7px;
+    border-radius: 7px;
+    width: fit-content;
+    margin-bottom: 7%;
+    margin-left: 4%;
+}
+.y22{
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.y33{
+    margin-top: 1%;
+     
+}
+.a2{
+    font-size: 18px;
+}
+/* portin 2 is finiehd */
+ .job-main3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     padding: 15px;
+   
+}
+.img3{
+    margin-right: 10%;
+    width: 50px;
+}
+.x111{
+    margin-top: 1%;
+}
+.x222{
+    margin-top: 1%;
+}
+.x333{
+    margin-top: 1%;
+}
+.y111{
+    margin-top: 1%;
+    background-color: rgb(194, 254, 76);
+    padding: 7px;
+    border-radius: 7px;
+    width: fit-content;
+    margin-bottom: 7%;
+}
+.y222{
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.y333{
+    margin-top: 1%;
+     
+}
+.a3z{
+    font-size: 18px;
+}
+/* portion 3 is finished */
+ .job-main4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     padding: 15px;
+   
+}
+.img4{
+    margin-right: 10%;
+    width: 50px;
+}
+.x1111{
+    margin-top: 1%;
+}
+.x2222{
+    margin-top: 1%;
+}
+.x3333{
+    margin-top: 1%;
+}
+.y1111{
+    margin-top: 1%;
+    background-color: rgb(194, 254, 76);
+    padding: 7px;
+    border-radius: 7px;
+    width: fit-content;
+    margin-bottom: 7%;
+}
+.y2222{
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.y3333{
+    margin-top: 1%;
+     
+}
+.a3z{
+    font-size: 18px;
+}
+/* thala */
+.thala-div{
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 0.9%;
+    height: 500px;
+     
+    margin-right: 2%;
+}
+.thala1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 3%;
+}
+.thala2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 3%;
+}
+.b2{
+    padding: 10px;
+    background-color: palegreen;
+    border-radius: 5px;
+}
