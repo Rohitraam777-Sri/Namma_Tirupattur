@@ -842,14 +842,15 @@ body{
 /* images finished */
 
 /* quick links starts */
-.aboutzblue{
-    background-color:rgb(11, 112, 11);
-    color: white;
-}
+ 
 .quick{
     display: inline-block;
     margin-left: 70px
     
+}
+.aboutzblue{
+    background-color: green;
+    color: white;
 }
   
  .homz{

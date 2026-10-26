@@ -5,6 +5,17 @@
 .tpt{
     width: 120px;
 }
+body{
+    background-color: rgb(227, 240, 230);
+    
+}
+.pacha{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(11, 112, 11);
+    color: white;
+    padding: 5px;
+}
 .nav,.nav_bar{
     display: flex;
     align-items: center;
@@ -21,6 +32,7 @@
     font-size: 20px;
      
 }
+
 .tpt{
     margin-left: 40px;
     border-radius: 50px;
@@ -51,12 +63,12 @@
 
  
 .about_line{
-    background-image: url(imges/about.tpt.jpg);
+    background-image: url(imges/ABT.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px;
-    border-radius: 20px;
+    padding: 7%;
+    border-radius: 20PX;
     
 }
 .tptline{
@@ -98,15 +110,16 @@
 }
 .box1{
     width: 150px;
-    background-color:lightskyblue;
+    background-color:rgb(240, 241, 241);
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
 }
 .img1{
      width: 75px;
     margin-top: 14px;
-    background-color: rgb(242, 250, 254);
+    background-color: rgb(109, 246, 171);
     padding: 10px;
     border-radius: 10px;
 }
@@ -120,15 +133,17 @@
 /* dabba 2 started */
 .box2{
     width: 150px;
-    background-color:lightskyblue;
+     
+    background-color:rgb(240, 241, 241);
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
+     box-shadow: 2px 2px 2px black;
 }
 .img2{
      width: 75px;
     margin-top: 14px;
-    background-color: rgb(242, 250, 254);
+    background-color: rgb(109, 246, 171);
     padding: 10px;
     border-radius: 10px;
 }
@@ -143,15 +158,16 @@
 
 .box3{
     width: 150px;
-    background-color:lightskyblue;
+    background-color:rgb(240, 241, 241);
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
+     box-shadow: 2px 2px 2px black;
 }
 .img3{
      width: 75px;
     margin-top: 14px;
-    background-color: rgb(242, 250, 254);
+    background-color: rgb(109, 246, 171);
     padding: 10px;
     border-radius: 10px;
 }
@@ -164,15 +180,16 @@
 /* dabba 4 started */
 .box4{
     width: 150px;
-    background-color:lightskyblue;
+    background-color:rgb(240, 241, 241);
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
+     box-shadow: 2px 2px 2px black;
 }
 .img4{
      width: 75px;
     margin-top: 14px;
-    background-color:rgb(242, 250, 254);
+    background-color:rgb(109, 246, 171);
     padding: 10px;
     border-radius: 10px;
 }
@@ -185,15 +202,16 @@
 /* dabba 4 started */
 .box5{
     width: 150px;
-    background-color:lightskyblue;
+    background-color:rgb(242, 250, 254);
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
+     box-shadow: 2px 2px 2px black;
 }
 .img5{
      width: 75px;
     margin-top: 14px;
-    background-color:rgb(242, 250, 254);
+    background-color:rgb(109, 246, 171);
     padding: 10px;
     border-radius: 10px;
 }
@@ -206,15 +224,16 @@
 /* dabba 4 started */
 .box6{
     width: 150px;
-    background-color:lightskyblue;
+    background-color:rgb(242, 250, 254);
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
+     box-shadow: 2px 2px 2px black;
 }
 .img6{
      width: 75px;
     margin-top: 14px;
-    background-color: rgb(242, 250, 254);
+    background-color: rgb(109, 246, 171);
     padding: 10px;
     border-radius: 10px;
 }
@@ -233,7 +252,7 @@
 }
 .visi1{
     width: 380px;
-    background-color: lightskyblue;
+    background-color: rgb(135, 250, 202);
     color: black;
     padding: 10px;
     margin: 40px;
@@ -255,7 +274,7 @@
 }
 .target1{
      width: 380px;
-    background-color: lightskyblue;
+    background-color: rgb(176, 249, 212);
     color: black;
     padding: 10px;
     margin: 40px;
@@ -290,7 +309,10 @@
     margin-top: 10px;
     margin-right: 50px;
 }
- 
+ .aboutzblue{
+    background-color: green;
+    color: white;
+ }
 .abtblue1{
     margin-left: 35px;
      
@@ -308,6 +330,8 @@
     margin-top: 10px;
 }
 /* social  media */
+ 
+ 
 .abtsocial{
     display: flex;
     align-items: center;
@@ -353,7 +377,7 @@
 }
   
  .homz{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
     margin-top: 10px;
@@ -367,7 +391,7 @@
     text-decoration: underline;
  }
  .abtblu{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;
@@ -380,7 +404,7 @@
     text-decoration: underline;
  }
  .abtserv{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;
@@ -393,7 +417,7 @@
     text-decoration: underline;
  }
  .sptz{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;
@@ -406,7 +430,7 @@
     text-decoration: underline;
  }
  .abtjobz{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;
@@ -420,7 +444,7 @@
     text-decoration: underline;
  }
  .abtbuzi{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;
@@ -444,7 +468,7 @@
 }
   
  .anno{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
     margin-top: 10px;
@@ -458,7 +482,7 @@
     text-decoration: underline;
  }
  .abtrepo{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;
@@ -471,7 +495,7 @@
     text-decoration: underline;
  }
  .abttrack{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;
@@ -484,7 +508,7 @@
     text-decoration: underline;
  }
  .map{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;
@@ -497,7 +521,7 @@
     text-decoration: underline;
  }
  .urgent{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;
@@ -511,7 +535,7 @@
     text-decoration: underline;
  }
  .private{
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
      margin-top: 10px;

@@ -62,9 +62,14 @@ body{
 /* top nav is finished */
 .weltho{
     font-size: 24px;
-    color: darkred;
+    color: white;
     width: 500px;
+    margin: 3%;
     
+    
+}
+.expoz{
+    margin-bottom: 4%;
 }
 .expoz:hover{
      color: darkred;
@@ -85,11 +90,12 @@ body{
 }
  
 .welcome_tpt{
-    background-image:url(imges/bg\ tpt.png);
+    background-image:url(imges/SERV.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
+    padding: 4%;
+    height: 410px;
 
 
 }
@@ -103,7 +109,7 @@ body{
     background-color:rgb(11, 112, 11);
     color: white;
     border-radius: 10px;
-    margin-top: 10px;
+   
    
 }
 .expo a{
@@ -132,7 +138,12 @@ body{
     margin-bottom: 20px;
      color:rgb(14, 72, 14);
 }
-/* image welcome of tiruaytur */
+.welz{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+/*
+.wels image welcome of tiruaytur */
 .serv-head{
     margin: 2%;
     font-style: inherit;
@@ -157,7 +168,7 @@ body{
 }
 .serv1{
     width: 220px;
-    background-color: palegoldenrod;
+    background-color: rgb(162, 255, 179);
     padding: 10px;
     border-radius: 10px;
     margin: 2%;
@@ -184,7 +195,7 @@ body{
 /* portion 1 is finished */
 .serv2{
      width: 220px;
-    background-color: palegoldenrod;
+    background-color: rgb(162, 255, 179);
     padding: 10px;
     border-radius: 10px;
     margin: 2%;
@@ -214,7 +225,7 @@ body{
 /* portion 2 is finished */
 .serv3{
     width: 220px;
-    background-color: palegoldenrod;
+    background-color: rgb(162, 255, 179);
     padding: 10px;
     border-radius: 10px;
     margin: 2%;
@@ -245,7 +256,7 @@ body{
 /* portion 3 is finished */
 .serv4{
     width: 220px;
-    background-color: palegoldenrod;
+    background-color: rgb(162, 255, 179);
     padding: 10px;
     border-radius: 10px;
     margin: 2%;
@@ -276,7 +287,7 @@ body{
 /* portion 4 is finished */
 .serv5{
     width: 220px;
-    background-color: palegoldenrod;
+    background-color:rgb(162, 255, 179);
     padding: 10px;
     border-radius: 10px;
     margin: 2%;
@@ -307,7 +318,7 @@ body{
 /* portion 5 is finished */
 .serv6{
     width: 220px;
-    background-color: palegoldenrod;
+    background-color:rgb(162, 255, 179);
     padding: 10px;
     border-radius: 10px;
     margin: 2%;
@@ -338,7 +349,7 @@ body{
 /* portion 6 is finished */
 .serv7{
     width: 220px;
-    background-color: palegoldenrod;
+    background-color:rgb(162, 255, 179);
     padding: 10px;
     border-radius: 10px;
     margin: 2%;
@@ -369,7 +380,7 @@ body{
 /* portion 7 is finished */
 .serv8{
     width: 220px;
-    background-color: palegoldenrod;
+    background-color:rgb(162, 255, 179);
     padding: 10px;
     border-radius: 10px;
     margin: 2%;
@@ -400,7 +411,7 @@ body{
 /* portion 8 is finished */
 .serv9{
     width: 220px;
-    background-color: palegoldenrod;
+    background-color:rgb(162, 255, 179);
     padding: 10px;
     border-radius: 10px;
     margin: 2%;

@@ -90,11 +90,11 @@ body{
 }
  
 .welcome_tpt{
-    background-image:url(imges/bg\ tpt.png);
+    background-image:url(imges/annouz.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding:7%;
+    padding:9%;
 
 
 }

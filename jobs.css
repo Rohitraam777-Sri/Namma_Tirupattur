@@ -5,7 +5,7 @@
 }
 body{
     background-color: rgb(227, 240, 230);
-    font-family: sans-serif;
+    
 }
 .pacha{
     display: flex;
@@ -91,11 +91,11 @@ body{
 }
  
 .welcome_tpt{
-    background-image:url(imges/bg\ tpt.png);
+    background-image:url(imges/JOV.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding:7%;
+    padding:11%;
 
 
 }
@@ -378,3 +378,344 @@ body{
     background-color: palegreen;
     border-radius: 5px;
 }
+
+
+
+
+
+
+
+/* now about tirupattur started */
+.abtsocial{
+    display: flex;
+    justify-content: space-around;
+    width:200px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+ 
+.abtblue1{
+    margin-left: 35px;
+     
+}
+.abtbluei{
+    width: 150px;
+    border-radius: 100px;
+    margin-top: 10px;
+     
+}
+.onep{
+    margin-top: 10px;
+}
+.onef{
+    margin-top: 10px;
+}
+/* social  media */
+.abtsocial{
+    display: flex;
+    align-items: center;
+}
+.facebook{
+    width: 60px;
+    border-radius: 110px;
+}
+/* facebook finished */
+/* instagaram starts */
+.insta{
+    width: 60px;
+    margin-left: 7px;
+    border-radius: 110px;
+}
+/* insta finished */
+/* wp starts */
+.wp{
+    width: 65px;
+    border-radius: 170px;
+     margin-left: 7px;
+}
+/* wp endes */
+/* youtube starts */
+.utube{
+    width: 65px;
+    border-radius: 180px;
+     margin-left: 7px;
+}
+ .abtblue1{
+    display: inline-block;
+
+ }
+/* images finished */
+
+/* quick links starts */
+ 
+.quick{
+    display: inline-block;
+    margin-left: 70px
+    
+}
+.aboutzblue{
+    background-color: green;
+    color: white;
+}
+  
+ .homz{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+     
+    font-size: 20px;
+ }
+ .homz:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtblu{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtblu:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtserv{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtserv:hover{
+     color:darkred;
+    text-decoration: underline;
+ }
+ .sptz{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .sptz:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtjobz{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block; 
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtjobz:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abtbuzi{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+ .abtbuzi:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .qcklink{
+    margin-bottom: 30px;
+ }
+ .quick a{
+    color: white;
+ }
+ .implinks a{
+    color: white;
+ }
+/* important thakaval */
+
+ .implinks{
+    display: inline-block;
+    margin-left: 70px
+    
+}
+  
+ .anno{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+     
+    font-size: 20px;
+ }
+ .anno:hover{
+   color:darkred;
+    text-decoration: underline;
+ }
+ .abtrepo{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abtrepo:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .abttrack{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .abttrack:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .map{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .map:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .urgent{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block; 
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .urgent:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .private{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-top: 10px;
+     display: block;
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+ .private:hover{
+    color:darkred;
+    text-decoration: underline;
+ }
+ .qcklink{
+    margin-bottom: 30px;
+ }
+ /* important thakaval finished */
+  /* address */
+  .qckzlink{
+    margin-bottom: 27px;
+ }
+  .implinks{
+    display: inline-block;
+    margin-left: 70px
+    
+}
+.address{
+    display: inline-block;
+    margin-left: 50px;
+}
+.puthagaram{
+    margin-bottom: 10px;
+}
+.natrampalli{
+    margin-bottom: 10px;
+}
+.tirupattur{
+    margin-bottom: 10px;
+}
+.tn{
+    margin-bottom: 10px;
+}
+.call{
+    margin-bottom: 10px;
+}
+.email{
+    margin-bottom: 10px;
+}
+/* address fiished */
+.newzabt{
+    display: inline-block;
+    margin-left: 70px;
+}
+.subzz{
+      margin-bottom: 20px;
+}
+.abtinput{
+     margin-bottom: 20px;
+     padding: 10px;
+     width: 200px;
+     border-radius: 10px;
+     border: none;
+}
+.btnt{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(227, 244, 254);
+    color: darkblue;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+    
+    
+    
+}
+.btnt:hover{
+    color: darkred;
+    text-decoration: underline;
+    cursor: pointer;
+ } 
+ /* namma tpt about is finished */
+ /* Love for tirupattur */
+.rightz{
+    margin-left: 30px;
+}
+.love{
+    display: inline-block;
+    margin-right: 30px;
+}
+ .lovzz{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+ }
