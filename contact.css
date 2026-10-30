@@ -30,6 +30,7 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
 }
 .nav_bar{
      margin-left: 20%;

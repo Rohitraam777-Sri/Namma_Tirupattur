@@ -1,0 +1,424 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: rgb(227, 240, 230);
+}
+
+.pacha {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(11, 112, 11);
+    color: white;
+    padding: 5px;
+}
+
+.tpt {
+    width: 110px;
+    margin: 10px;
+}
+
+.nav,
+.nav_bar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.nav_bar {
+    margin-left: 20%;
+
+}
+
+.nav_bar a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.tpt {
+    margin-left: 40px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.nav {
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+.nav_bar a:hover {
+
+    color: black;
+
+    text-decoration: underline;
+    color: rgb(11, 112, 11);
+
+
+
+}
+
+.log a {
+    background-color: lightskyblue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* top nav finished */
+
+.digiwel {
+    color: rgb(79, 156, 245);
+    font-style: italic;
+}
+
+.welz {
+    color: rgb(79, 156, 245);
+    font-style: italic;
+}
+
+
+.weltho {
+    font-size: 24px;
+    color: darkred;
+    width: 500px;
+
+}
+
+.expoz:hover {
+    color: darkred;
+    text-decoration: underline;
+    padding: 2x;
+    border-radius: 5px;
+}
+
+.repoz:hover {
+    color: darkred;
+    text-decoration: underline;
+    padding: 2x;
+    border-radius: 5px;
+}
+
+.expo,
+.repo {
+    text-decoration: none;
+    color: black;
+
+}
+
+.welcome_tpt {
+    background-image:url(imges/bg\ tpt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 79px;
+}
+
+.expo,
+.repo {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.expo {
+    padding: 10px;
+    background-color: rgb(11, 112, 11);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.expo a {
+    color: white;
+}
+
+.repoz,
+.expoz {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+}
+
+.repo {
+    padding: 10px;
+    background-color: rgb(11, 112, 11);
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.repo a {
+    color: white;
+}
+
+.qck {
+    margin: 10px;
+    color: rgb(14, 72, 14);
+}
+
+.find {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(14, 72, 14);
+}
+
+/* dabbas */
+ /* bus */
+ .viewallb{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    align-items: center;
+ }
+ .viewallb a{
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+ }
+  .viewallb a:hover{
+    color:  darkblue;
+    text-decoration: underline;
+    font-weight: bold;
+ }
+
+ .main-bus{
+    display: flex; 
+     justify-content: space-around;
+     background-color: rgb(177, 231, 253);
+     border-radius: 5px;
+     padding: 20px;
+     
+    }
+    .main-routes{
+        margin-bottom: 2%;
+    }
+    
+ .bus-main1{
+     display: flex; 
+     align-items: center;
+     
+     padding: 10px;
+      column-gap: 50px;
+
+ }
+.busz1{
+    width: 50px;
+
+}
+.t1{
+    margin-top: 2%;
+}
+/*  */
+ .bus-main2{
+     display: flex; 
+     align-items: center;
+     
+     padding: 10px;
+      column-gap: 50px;
+
+ }
+.busz2{
+    width: 50px;
+
+}
+.t2{
+    margin-top: 2%;
+}
+/*  */
+ .bus-main2{
+     display: flex; 
+     align-items: center;
+     
+     padding: 10px;
+      column-gap: 50px;
+
+ }
+.busz2{
+    width: 50px;
+
+}
+.t2{
+    margin-top: 2%;
+}
+/*  */
+ .bus-main3{
+     display: flex; 
+     align-items: center;
+     
+     padding: 10px;
+      column-gap: 50px;
+
+ }
+.busz3{
+    width: 50px;
+
+}
+.t3{
+    margin-top: 2%;
+}
+/*  */
+ .bus-main4{
+     display: flex; 
+     align-items: center;
+     
+     padding: 10px;
+      column-gap: 50px;
+
+ }
+.busz4{
+    width: 50px;
+
+}
+.t4{
+    margin-top: 2%;
+}
+/* bus 4 finished */
+.popu{
+    font-size: 20px;
+    margin: 1.5%;
+}
+/*  */
+.main-routes{
+    display: flex;
+    justify-content: space-around;
+}
+.routes1{
+    background-color: skyblue;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+     
+}
+.v1{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+.fare1{
+   color: darkred;
+   border: 2px solid darkred;
+   padding: 10px;
+   border-radius: 10px;
+}
+.tpt1{
+    margin-top: 2%;
+}
+.via1{
+    margin-top: 4%;
+     
+}
+.min1{
+    margin-top: 2%;
+}
+.time1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    margin-top: 4%;
+}
+.root1{
+    display: flex;
+    justify-content: space-around;
+}
+/*  */
+.routes2{
+    background-color: skyblue;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+     
+}
+.v2{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+.fare2{
+   color: darkred;
+   border: 2px solid darkred;
+   padding: 10px;
+   border-radius: 10px;
+}
+.tpt2{
+    margin-top: 2%;
+}
+.via2{
+    margin-top: 4%;
+     
+}
+.min2{
+    margin-top: 2%;
+}
+.time2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    margin-top: 4%;
+}
+.root2{
+    display: flex;
+    justify-content: space-around;
+}
+/*  */
+.routes3{
+    background-color: skyblue;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+     
+}
+.v3{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+.fare3{
+   color: darkred;
+   border: 2px solid darkred;
+   padding: 10px;
+   border-radius: 10px;
+}
+.tpt3{
+    margin-top: 2%;
+}
+.via3{
+    margin-top: 4%;
+     
+}
+.min3{
+    margin-top: 2%;
+}
+.time3{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    margin-top: 4%;
+}
+.root3{
+    display: flex;
+    justify-content: space-around;
+}
+/*  */
+ 
+.routs-tpt1{
+     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+.routs-tpt2{
+    display: flex;
+     
+     
+}

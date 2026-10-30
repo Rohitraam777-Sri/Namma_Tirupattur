@@ -7,6 +7,7 @@
 }
 body{
     background-color: rgb(227, 240, 230);
+    overflow-x: hidden;
     
 }
 .pacha{
@@ -19,7 +20,9 @@ body{
 .nav,.nav_bar{
     display: flex;
     align-items: center;
-    text-align: center;
+    
+    
+    justify-content: space-around;
 }
 .nav_bar{
      margin-left: 20%;
@@ -68,7 +71,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 7%;
-    border-radius: 20PX;
+    border-radius: 15px;
     
 }
 .tptline{
@@ -85,6 +88,24 @@ body{
     color: rgb(79, 156, 245);
     
 }
+
+.expo{
+    padding: 10px;
+    background-color:rgb(11, 112, 11);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+.expo a{
+    color: white;
+}
+.expoz{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+}
+
 .divs_of_about{
     margin-top: 30px;
 }
