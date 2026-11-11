@@ -7,7 +7,7 @@
 body {
     background-color: rgb(227, 240, 230);
 }
- 
+
 .pacha {
     display: flex;
     justify-content: space-around;
@@ -15,7 +15,10 @@ body {
     color: white;
     padding: 5px;
 }
-
+.nav{
+    position: sticky;
+     top: 0px;
+}
 .tpt {
     width: 110px;
     margin: 10px;
@@ -114,11 +117,11 @@ body {
 }
 
 .welcome_tpt {
-    background-image:url(imges/bg\ tpt.png);
+    background-image: url(imges/bg\ tpt.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 79px;
+    padding: 80px;
 }
 
 .expo,
@@ -176,12 +179,11 @@ body {
     color: rgb(18, 101, 18);
 }
 
- 
 
- 
-.dabbas {
-    /* margin-top: 20px;
-    margin-left: 20px; */
+
+
+.subox {
+     
     width: 100%;
     padding: 18px;
     display: flex;
@@ -193,7 +195,7 @@ body {
 
 }
 
-.dabbaz {
+.boxes {
     background-color: whitesmoke;
     border-radius: 15px;
     display: flex;
@@ -227,23 +229,26 @@ body {
 .box2 {
     margin-left: 10px;
     width: 150px;
-     
+
     background-color: lightskyblue;
     border-radius: 20px;
     padding: 10px;
-       
+
 }
 
 .new:hover {
     color: darkblue;
     text-decoration: underline;
 }
-.local,.buzi {
+
+.local,
+.buzi {
     text-decoration: none;
     color: darkred;
     font-size: 18px;
     font-weight: bold;
 }
+
 /* dabba 2 margaiyaa */
 
 .img3 {
@@ -253,18 +258,20 @@ body {
     margin-top: 10px;
 }
 
-.box3{
+.box3 {
     margin-left: 10px;
     width: 150px;
-     
+
     background-color: lightskyblue;
     border-radius: 20px;
     padding: 10px;
-    
 
-     
+
+
 }
-.jobz,.oppo {
+
+.jobz,
+.oppo {
     text-decoration: none;
     color: darkred;
     font-size: 18px;
@@ -280,59 +287,63 @@ body {
     margin-top: 10px;
 }
 
-.box3{
+.box3 {
     margin-left: 10px;
     width: 150px;
-     
+
     background-color: lightskyblue;
     border-radius: 20px;
     padding: 10px;
-    
 
-     
+
+
 }
-.jobz,.oppo {
+
+.jobz,
+.oppo {
     text-decoration: none;
     color: darkred;
     font-size: 18px;
     font-weight: bold;
 }
 
- 
+
 /* dabba 4 margaiyaa */
 
- .img4 {
+.img4 {
     width: 70px;
     padding: 30px;
     border-radius: 50px;
     margin-top: 10px;
 }
 
-.box4{
+.box4 {
     margin-left: 10px;
     width: 150px;
-     
+
     background-color: lightskyblue;
     border-radius: 20px;
     padding: 10px;
-    
 
-     
+
+
 }
-.travel,.travelz {
+
+.travel,
+.travelz {
     text-decoration: none;
     color: darkred;
     font-size: 18px;
     font-weight: bold;
 }
 
- 
+
 
 /* dabba5 margaiyaa */
 
- 
 
- 
+
+
 
 /* dabba 6 margaiyaa */
 
@@ -344,15 +355,16 @@ body {
     margin-top: 10px;
 }
 
- .tour {
+.tour {
     text-decoration: none;
     color: darkred;
     font-size: 18px;
 }
-.box8 h4 a{
+
+.box8 h4 a {
     text-decoration: none;
     color: darkred;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -362,30 +374,33 @@ body {
 
 /* dabba 7 margaiyaa */
 
- .img8 {
+.img8 {
     width: 70px;
     padding: 30px;
     border-radius: 50px;
     margin-top: 10px;
 }
 
-.box8{
+.box8 {
     margin-left: 10px;
     width: 150px;
-     
+
     background-color: lightskyblue;
     border-radius: 20px;
     padding: 10px;
-    
 
-     
+
+
 }
-.plaz,.tour {
+
+.plaz,
+.tour {
     text-decoration: none;
     color: darkred;
     font-size: 18px;
     font-weight: bold;
 }
+
 /* dabba 8 margaiyaa */
 .img6 {
     width: 50px;
@@ -395,7 +410,8 @@ body {
     margin-top: 10px;
 }
 
-.tranzz,.servz {
+.tranzz,
+.servz {
     text-decoration: none;
     color: darkred;
     font-size: 18px;
@@ -404,13 +420,13 @@ body {
 .box8 {
     margin-left: 10px;
 }
- 
+
 
 /* dabba 9 margaiyaa */
 
- 
 
- 
+
+
 
 /* dabba 10 margaiyaa */
 /* all dabbas of imprtant iconz finished */
@@ -435,7 +451,7 @@ body {
 }
 
 /*   */
-.annoudiv {
+.amain {
     display: flex;
     text-align: center;
     align-items: center;
@@ -443,7 +459,7 @@ body {
     justify-content: space-evenly;
 }
 
-.tmbidiv {
+.apart {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -1175,7 +1191,15 @@ body {
 .lovzz {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    padding-bottom: 10px;
+padding: 10px;
+    
+    background-color: green;
+    color: white;
 
 }
+ .address{
+    margin-top: 20px;
+ }
+ .quick{
+    margin-top: 25px;
+ }

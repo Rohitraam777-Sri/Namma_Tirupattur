@@ -28,6 +28,10 @@ body {
     text-align: center;
     justify-content: space-around;
 }
+.nav{
+    position: sticky;
+     top: 0px;
+}
 
 .nav_bar {
     margin-left: 20%;
@@ -117,7 +121,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 79px;
+    padding: 95px;
 }
 
 .expo,
@@ -726,7 +730,6 @@ body {
 .lovzz {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
     padding-bottom: 10px;
     height: 100px;
 

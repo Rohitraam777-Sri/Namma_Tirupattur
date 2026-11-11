@@ -20,9 +20,11 @@ body{
 .nav,.nav_bar{
     display: flex;
     align-items: center;
-    
-    
     justify-content: space-around;
+}
+.nav{
+    position: sticky;
+     top: 0px;
 }
 .nav_bar{
      margin-left: 20%;
@@ -32,8 +34,7 @@ body{
     margin-left: 30px;
     color: black;
     text-decoration: none;
-    font-size: 20px;
-     
+    font-size: 20px; 
 }
 
 .tpt{
@@ -72,7 +73,9 @@ body{
     background-size: cover;
     padding: 7%;
     border-radius: 15px;
-    
+}
+.abttptzz h1{
+    background-image: linear-gradient(to right,green, white)
 }
 .tptline{
     font-size: 24px;
@@ -140,7 +143,7 @@ body{
 .img1{
      width: 75px;
     margin-top: 14px;
-    background-color: rgb(109, 246, 171);
+    background-color: rgb(206, 252, 227);
     padding: 10px;
     border-radius: 10px;
 }
@@ -164,7 +167,8 @@ body{
 .img2{
      width: 75px;
     margin-top: 14px;
-    background-color: rgb(109, 246, 171);
+    background-color: rgb(195, 246, 218);
+    padding: 10px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -179,7 +183,7 @@ body{
 
 .box3{
     width: 150px;
-    background-color:rgb(240, 241, 241);
+    background-color: rgb(240, 241, 241);
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
@@ -188,7 +192,8 @@ body{
 .img3{
      width: 75px;
     margin-top: 14px;
-    background-color: rgb(109, 246, 171);
+    background-color: rgb(195, 246, 218);
+    padding: 10px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -210,7 +215,7 @@ body{
 .img4{
      width: 75px;
     margin-top: 14px;
-    background-color:rgb(109, 246, 171);
+    background-color:rgb(195, 246, 218);
     padding: 10px;
     border-radius: 10px;
 }
@@ -232,7 +237,8 @@ body{
 .img5{
      width: 75px;
     margin-top: 14px;
-    background-color:rgb(109, 246, 171);
+    background-color:rgb(195, 246, 218);
+    padding: 10px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -254,7 +260,8 @@ body{
 .img6{
      width: 75px;
     margin-top: 14px;
-    background-color: rgb(109, 246, 171);
+    background-color: rgb(195, 246, 218);
+    padding: 10px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -273,7 +280,7 @@ body{
 }
 .visi1{
     width: 380px;
-    background-color: rgb(135, 250, 202);
+    background-color: rgb(220, 247, 247);
     color: black;
     padding: 10px;
     margin: 40px;
@@ -295,7 +302,7 @@ body{
 }
 .target1{
      width: 380px;
-    background-color: rgb(176, 249, 212);
+    background-color: rgb(220, 247, 247);
     color: black;
     padding: 10px;
     margin: 40px;
@@ -317,308 +324,358 @@ body{
     border-radius: 20px;
 
 }
-/* namma tpt image center cpmoleted  */
-/* now about tirupattur blue starts */
-/* .aboutzblue{
-    display: flex;
-    align-items: center;
-} */
-.abtsocial{
+ 
+ /* abt tpt */
+
+/* now about tirupattur started */
+.abtsocial {
     display: flex;
     justify-content: space-around;
-    width:200px;
+    width: 200px;
     margin-top: 10px;
     margin-right: 50px;
 }
- .aboutzblue{
-    background-color: green;
-    color: white;
- }
-.abtblue1{
+
+.abtblue1 {
     margin-left: 35px;
-     
+
 }
-.abtbluei{
+
+.abtbluei {
     width: 150px;
     border-radius: 100px;
     margin-top: 10px;
-     
+
 }
-.onep{
+
+.onep {
     margin-top: 10px;
 }
-.onef{
+
+.onef {
     margin-top: 10px;
 }
+
 /* social  media */
- 
- 
-.abtsocial{
+.abtsocial {
     display: flex;
     align-items: center;
 }
-.facebook{
+
+.facebook {
     width: 60px;
     border-radius: 110px;
 }
+
 /* facebook finished */
 /* instagaram starts */
-.insta{
+.insta {
     width: 60px;
     margin-left: 7px;
     border-radius: 110px;
 }
+
 /* insta finished */
 /* wp starts */
-.wp{
+.wp {
     width: 65px;
     border-radius: 170px;
-     margin-left: 7px;
+    margin-left: 7px;
 }
+
 /* wp endes */
 /* youtube starts */
-.utube{
+.utube {
     width: 65px;
     border-radius: 180px;
-     margin-left: 7px;
+    margin-left: 7px;
 }
- .abtblue1{
+
+.abtblue1 {
     display: inline-block;
- }
+
+}
+
 /* images finished */
 
 /* quick links starts */
-.aboutzblue{
-    background-color:lightskyblue;
-}
-.quick{
+
+.quick {
     display: inline-block;
     margin-left: 70px
-    
 }
-  
- .homz{
+
+.aboutzblue {
+    background-color: green;
     color: white;
+}
+
+.homz {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     display: block;
-     
+
     font-size: 20px;
- }
- .homz:hover{
-    color:darkred;
+}
+
+.homz:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .abtblu{
-    color: white;
+}
+
+.abtblu {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block;
-     margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
     font-size: 20px;
- }
- .abtblu:hover{
-    color:darkred;
+}
+
+.abtblu:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .abtserv{
-    color: white;
+}
+
+.abtserv {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block;
-     margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
     font-size: 20px;
- }
- .abtserv:hover{
-     color:darkred;
+}
+
+.abtserv:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .sptz{
-    color: white;
+}
+
+.sptz {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block;
-     margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
     font-size: 20px;
- }
- .sptz:hover{
-    color:darkred;
+}
+
+.sptz:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .abtjobz{
-    color: white;
+}
+
+.abtjobz {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block; 
+    margin-top: 10px;
+    display: block;
     font-size: 20px;
     margin-bottom: 10px;
     font-size: 20px;
- }
- .abtjobz:hover{
-    color:darkred;
+}
+
+.abtjobz:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .abtbuzi{
-    color: white;
+}
+
+.abtbuzi {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block;
-     font-size: 20px;
-     margin-bottom: 20px;
- }
- .abtbuzi:hover{
-    color:darkred;
+    margin-top: 10px;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.abtbuzi:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .qcklink{
+}
+
+.qcklink {
     margin-bottom: 30px;
- }
+}
+
+.quick a {
+    color: white;
+}
+
+.implinks a {
+    color: white;
+}
+
 /* important thakaval */
 
- .implinks{
+.implinks {
     display: inline-block;
     margin-left: 70px
-    
 }
-  
- .anno{
-    color: white;
+
+.anno {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     display: block;
-     
+
     font-size: 20px;
- }
- .anno:hover{
-   color:darkred;
+}
+
+.anno:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .abtrepo{
-    color: white;
+}
+
+.abtrepo {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block;
-     margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
     font-size: 20px;
- }
- .abtrepo:hover{
-    color:darkred;
+}
+
+.abtrepo:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .abttrack{
-    color: white;
+}
+
+.abttrack {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block;
-     margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
     font-size: 20px;
- }
- .abttrack:hover{
-    color:darkred;
+}
+
+.abttrack:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .map{
-    color: white;
+}
+
+.map {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block;
-     margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
     font-size: 20px;
- }
- .map:hover{
-    color:darkred;
+}
+
+.map:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .urgent{
-    color: white;
+}
+
+.urgent {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block; 
+    margin-top: 10px;
+    display: block;
     font-size: 20px;
     margin-bottom: 10px;
     font-size: 20px;
- }
- .urgent:hover{
-    color:darkred;
+}
+
+.urgent:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .private{
-    color: white;
+}
+
+.private {
+    color: black;
     text-decoration: none;
     margin-top: 20px;
-     margin-top: 10px;
-     display: block;
-     font-size: 20px;
-     margin-bottom: 20px;
- }
- .private:hover{
-    color:darkred;
+    margin-top: 10px;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.private:hover {
+    color: darkred;
     text-decoration: underline;
- }
- .qcklink{
+}
+
+.qcklink {
     margin-bottom: 30px;
- }
- /* important thakaval finished */
-  /* address */
-  .qckzlink{
+}
+
+/* important thakaval finished */
+/* address */
+.qckzlink {
     margin-bottom: 27px;
- }
-  .implinks{
+}
+
+.implinks {
     display: inline-block;
     margin-left: 70px
-    
 }
-.address{
+
+.address {
     display: inline-block;
     margin-left: 50px;
 }
-.puthagaram{
+
+.puthagaram {
     margin-bottom: 10px;
 }
-.natrampalli{
+
+.natrampalli {
     margin-bottom: 10px;
 }
-.tirupattur{
+
+.tirupattur {
     margin-bottom: 10px;
 }
-.tn{
+
+.tn {
     margin-bottom: 10px;
 }
-.call{
+
+.call {
     margin-bottom: 10px;
 }
-.email{
+
+.email {
     margin-bottom: 10px;
 }
+
 /* address fiished */
-.newzabt{
+.newzabt {
     display: inline-block;
     margin-left: 70px;
 }
-.subzz{
-      margin-bottom: 20px;
+
+.subzz {
+    margin-bottom: 20px;
 }
-.abtinput{
-     margin-bottom: 20px;
-     padding: 10px;
-     width: 200px;
-     border-radius: 10px;
-     border: none;
+
+.abtinput {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
 }
-.btnt{
+
+.btnt {
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -627,28 +684,40 @@ body{
     border: none;
     width: 150px;
     font-size: 20px;
-    
-    
-    
+
+
+
 }
-.btnt:hover{
+
+.btnt:hover {
     color: darkred;
     text-decoration: underline;
     cursor: pointer;
- } 
- /* namma tpt about is finished */
- /* Love for tirupattur */
-.rightz{
+}
+
+/* namma tpt about is finished */
+/* Love for tirupattur */
+.rightz {
     margin-left: 30px;
 }
-.love{
+
+.love {
     display: inline-block;
     margin-right: 30px;
 }
- .lovzz{
+
+.lovzz {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    padding-bottom: 10px;
+padding: 10px;
+    
+    background-color: green;
+    color: white;
 
+}
+ .address{
+    margin-top: 20px;
+ }
+ .quick{
+    margin-top: 25px;
  }
